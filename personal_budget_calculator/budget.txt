@@ -1,0 +1,21 @@
+Income:-
+Monthly Salary(i.e. Fixed Income) -> 10000
+Monthly Income From Any Other Sources -> 1500
+Total Income -> 11500
+
+
+Expense:-
+Rent / Home loan (EMI) -> 6000
+Bills (eg. Electricity, water etc.) -> 2000
+Groceries And Food -> 3000
+Transportation -> 1000
+EMI or Loan Payments -> 500
+Lifestyle Expenses -> 500
+Misclleneous Expenses -> 1000
+Total Expenses -> 14000
+
+
+Savings:-
+🚨 Budget alert: You’re spending -2500 more than you earn.
+Your budget shows a deficit. Focus on needs first, then wants.
+Every month is a fresh start. Next month, you’ll do even better.
