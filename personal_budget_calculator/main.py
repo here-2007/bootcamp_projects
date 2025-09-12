@@ -26,7 +26,7 @@ def main():
     inc = income()
     expense= expenses()
     saving = savings(inc[1],expense[1])
-    with open("budget.txt","w") as f :
+    with open("budget.txt","w", encoding="utf-8") as f :
         f.write(f"{inc[0]}\n\n\n{expense[0]}\n\n\n{saving}")
 
 main()
