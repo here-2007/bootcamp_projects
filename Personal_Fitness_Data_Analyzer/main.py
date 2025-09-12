@@ -17,7 +17,7 @@ bad = df.loc[df['fitness_score']<=50].shape[0]
 good = df.loc[df['fitness_score']>80].shape[0]
 normal = df.loc[(df['fitness_score'] > 50) & (df['fitness_score'] <= 80)].shape[0]
 report_period = f"{df['date'].min().date()} - {df['date'].max().date()}"
-with open("report.txt", "w") as f:
+with open("report.txt", "w", encoding="utf-8") as f:
     f.write(
         f"PERSONAL FITNESS REPORT\n\n"
         f"Report Period -> {report_period}\n\n"
