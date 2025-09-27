@@ -1,5 +1,6 @@
 import pandas as pd
-df = pd.read_csv("example_data.csv")
+dataset = "https://drive.google.com/uc?export=download&id=1txZq3x86k7hvF_sXGL_cgW8Fve75cTNv"
+df = pd.read_csv(dataset)
 df.columns = df.columns.str.strip().str.lower()
 df['date']=pd.to_datetime(df['date'])
 df['step_score'] = (df['steps']/10000).clip(upper=1)*100
